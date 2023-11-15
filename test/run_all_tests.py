@@ -3,7 +3,7 @@ import unittest
 
 
 def main():
-    UNITTEST_DIR_PATH = str(Path().absolute() / "test_scripts")
+    UNITTEST_DIR_PATH = str(Path().absolute() / "test/test_scripts")
     loader = unittest.TestLoader()
 
     suites = loader.discover(UNITTEST_DIR_PATH)

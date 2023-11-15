@@ -21,14 +21,14 @@ run_tests_cmd: &run_tests_cmd
 workflows:
   build_and_test:
     jobs:
-      - build-and-code-check
-        filters:
-          tags:
-            only: /.*/
-      - run-tests
-        filters:
-          tags:
-            only: /.*/
+      - build-and-code-check:
+          filters:
+            tags:
+              only: /.*/
+      - run-tests:
+          filters:
+            tags:
+              only: /.*/
 
 ################# JOBS #################
 jobs:

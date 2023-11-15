@@ -2,7 +2,7 @@
 
 1) create repository
 2) write example/main.py (add documentation)
-add setup.py
+add setup.py, requirements.txt
 3) docs
 - create .readthedocs.yml, docs/, docs/conf.py, docs/source/index and docs/source/api/linear_equation
 - publish to readthedocs

@@ -3,7 +3,7 @@ import setuptools
 version = "0.0.1"
 
 setupkwargs = dict(
-    name="example",
+    name="exampleeeeee",
     version=version,
     description="linear eq",
     author="Ali Rachidi",

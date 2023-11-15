@@ -11,8 +11,11 @@ add setup.py, requirements.txt
 5) continuous integration (circleci)
 https://app.circleci.com/projects/setup/
 set up .circleci, .circle/config.yml
-
 6) pypi
 python setup.py sdist bdist_wheel
-twine upload dist/*
+twine upload --repository pypi dist/* -u $PYPI_USERNAME -p $PYPI_PASSWORD
+__token__
+
 7) tag
+git tag -a 0.0.1 -m "Initial Version"
+git push origin --tags

@@ -22,13 +22,13 @@ workflows:
   build_and_test:
     jobs:
       - build-and-code-check
-          filters:
-            tags:
-              only: /.*/
+      filters:
+        tags:
+          only: /.*/
       - run-tests
-          filters:
-            tags:
-              only: /.*/
+      filters:
+        tags:
+          only: /.*/
 
 ################# JOBS #################
 jobs:

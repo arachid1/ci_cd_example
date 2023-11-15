@@ -1,5 +1,5 @@
 Linear Equation
 ===============
 
-.. autoclass:: main.linear_equation
+.. autoclass:: example.main.linear_equation
  

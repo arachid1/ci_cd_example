@@ -10,7 +10,7 @@ add setup.py, requirements.txt
 - create test/, test/test_scripts/, write test_linear_equation, and write run_all_tests.py
 5) continuous integration (circleci)
 https://app.circleci.com/projects/setup/
-set up .circleci, .circle/ci
+set up .circleci, .circle/config.yml
 
 6) pypi
 python setup.py sdist bdist_wheel

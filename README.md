@@ -1,6 +1,6 @@
 # ci_cd_example
 
-1) create repository
+1) create repository (call it lQ_)
 2) write example/main.py (add documentation)
 add setup.py, requirements.txt
 3) docs
